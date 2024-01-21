@@ -1,0 +1,1608 @@
+{
+  "Amulet": [
+    {
+      "name": "引爆觸發器",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 25,
+          "damageTypes": [
+            "explosion"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "織夜者的仇怨",
+      "effects": [
+        {
+          "type": "criticalChance",
+          "value": 20,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        },
+        {
+          "type": "fireRate",
+          "value": 7,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "槍手神符",
+      "effects": [
+        {
+          "type": "fireRate",
+          "value": 15,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "腐蝕磨石",
+      "effects": [
+        {
+          "type": "criticalChance",
+          "value": 15,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        },
+        {
+          "type": "criticalDamage",
+          "value": 30,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "聖十字輝光",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 15,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "能量分流器",
+      "effects": [
+        {
+          "type": "criticalChance",
+          "value": 10,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        },
+        {
+          "type": "damageIncrease",
+          "value": 15,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    }
+  ],
+  "Archetype": [
+    {
+      "name": "獵人",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 40,
+          "damageTypes": [
+            "range"
+          ]
+        },
+        {
+          "type": "weakSpotDamage",
+          "value": 15,
+          "damageTypes": [
+            "range"
+          ]
+        },
+        {
+          "type": "criticalChance",
+          "value": 5,
+          "damageTypes": [
+            "range"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "槍手",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 25,
+          "damageTypes": [
+            "range"
+          ]
+        },
+        {
+          "type": "criticalChance",
+          "value": 5,
+          "damageTypes": [
+            "range"
+          ]
+        },
+        {
+          "type": "fireRate",
+          "value": 15,
+          "damageTypes": [
+            "range"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "醫療兵",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 25,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        },
+        {
+          "type": "criticalChance",
+          "value": 5,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "煉金術師",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 25,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        },
+        {
+          "type": "criticalChance",
+          "value": 5,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "執政官",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 30,
+          "damageTypes": [
+            "mod"
+          ]
+        },
+        {
+          "type": "criticalChance",
+          "value": 10,
+          "damageTypes": [
+            "mod"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "挑戰者",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 35,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        },
+        {
+          "type": "criticalChance",
+          "value": 10,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "入侵者",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 35,
+          "damageTypes": [
+            "range",
+            "melee"
+          ]
+        },
+        {
+          "type": "criticalChance",
+          "value": 5,
+          "damageTypes": [
+            "range",
+            "melee"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "工程師",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 50,
+          "damageTypes": [
+            "skill"
+          ]
+        },
+        {
+          "type": "criticalChance",
+          "value": 10,
+          "damageTypes": [
+            "skill"
+          ]
+        },
+        {
+          "type": "weakSpotDamage",
+          "value": 25,
+          "damageTypes": [
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "馴獸師",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 30,
+          "damageTypes": [
+            "range",
+            "skill"
+          ]
+        },
+        {
+          "type": "criticalChance",
+          "value": 5,
+          "damageTypes": [
+            "range",
+            "skill"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "召喚師",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 35,
+          "damageTypes": [
+            "skill",
+            "mod"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "祭祀者",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 20,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        },
+        {
+          "type": "criticalChance",
+          "value": 10,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    }
+  ],
+  "EffectSkill": [
+    {
+      "name": "獵人1技能",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 15,
+          "damageTypes": [
+            "range"
+          ]
+        },
+        {
+          "type": "criticalChance",
+          "value": 15,
+          "damageTypes": [
+            "range"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "獵人2技能",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 25,
+          "damageTypes": [
+            "range"
+          ]
+        },
+        {
+          "type": "weakSpotDamage",
+          "value": 25,
+          "damageTypes": [
+            "range"
+          ]
+        },
+        {
+          "type": "criticalChance",
+          "value": 25,
+          "damageTypes": [
+            "range"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "獵人3技能",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 50,
+          "damageTypes": [
+            "range"
+          ]
+        },
+        {
+          "type": "criticalChance",
+          "value": 15,
+          "damageTypes": [
+            "range"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "槍手3技能",
+      "effects": [
+        {
+          "type": "fireRate",
+          "value": 20,
+          "damageTypes": [
+            "range"
+          ]
+        },
+        {
+          "type": "criticalChance",
+          "value": 15,
+          "damageTypes": [
+            "bow"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    }
+  ],
+  "HandGun": [
+    {
+      "name": "MP60-R",
+      "damage": {
+        "value": 27,
+        "rps": 14.2,
+        "damageTypes": [
+          "range"
+        ]
+      },
+      "effects": [
+        {
+          "type": "criticalChance",
+          "value": 10,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        },
+        {
+          "type": "weakSpotDamage",
+          "value": 100,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "weapon"
+    },
+    {
+      "name": "奧秘",
+      "damage": {
+        "value": 42,
+        "rps": 4,
+        "damageTypes": [
+          "range",
+          "shock"
+        ]
+      },
+      "effects": [
+        {
+          "type": "criticalChance",
+          "value": -10,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "weapon"
+    },
+    {
+      "name": "腐化巔峰",
+      "damage": {
+        "value": 270,
+        "damageTypes": [
+          "range",
+          "explosion"
+        ],
+        "rps": 1.9
+      },
+      "effects": [],
+      "isDefault": true,
+      "runtimeType": "weapon"
+    }
+  ],
+  "LongGun": [
+    {
+      "name": "日暮",
+      "damage": {
+        "value": 93,
+        "rps": 4.3,
+        "damageTypes": [
+          "range"
+        ]
+      },
+      "effects": [
+        {
+          "type": "criticalChance",
+          "value": 5,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        },
+        {
+          "type": "weakSpotDamage",
+          "value": 105,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "weapon"
+    },
+    {
+      "name": "AR-47",
+      "damage": {
+        "value": 51,
+        "damageTypes": [
+          "range"
+        ],
+        "rps": 7.3
+      },
+      "effects": [
+        {
+          "type": "criticalChance",
+          "value": 10,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        },
+        {
+          "type": "weakSpotDamage",
+          "value": 100,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "weapon"
+    },
+    {
+      "name": "新月",
+      "damage": {
+        "value": 261,
+        "damageTypes": [
+          "range",
+          "bow"
+        ],
+        "rps": null
+      },
+      "effects": [
+        {
+          "type": "criticalChance",
+          "value": 5,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        },
+        {
+          "type": "weakSpotDamage",
+          "value": 70,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "weapon"
+    }
+  ],
+  "MeleeMutator": [
+    {
+      "name": "污穢之刃",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 20,
+          "damageTypes": [
+            "melee"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    }
+  ],
+  "Melee": [
+    {
+      "name": "科雷爾斧",
+      "damage": {
+        "value": 162,
+        "damageTypes": [
+          "melee"
+        ]
+      },
+      "effects": [
+        {
+          "type": "criticalChance",
+          "value": 3,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        },
+        {
+          "type": "weakSpotDamage",
+          "value": 85,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "weapon"
+    }
+  ],
+  "Mod": [
+    {
+      "name": "震顫",
+      "damage": {
+        "value": 225,
+        "damageTypes": [
+          "mod"
+        ]
+      },
+      "effects": [],
+      "isDefault": true,
+      "runtimeType": "weapon"
+    },
+    {
+      "name": "火焰風暴",
+      "damage": {
+        "value": 225,
+        "damageTypes": [
+          "fire",
+          "mod"
+        ]
+      },
+      "effects": [],
+      "isDefault": true,
+      "runtimeType": "weapon"
+    },
+    {
+      "name": "腐化巔峰 - 死亡點",
+      "damage": {
+        "value": 150,
+        "damageTypes": [
+          "mod",
+          "explosion"
+        ],
+        "rps": null
+      },
+      "effects": [],
+      "isDefault": true,
+      "runtimeType": "weapon"
+    }
+  ],
+  "Modifier": [
+    {
+      "name": "火熱射擊",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 15,
+          "damageTypes": [
+            "range"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "腐蝕彈藥",
+      "effects": [
+        {
+          "type": "criticalChance",
+          "value": 15,
+          "damageTypes": [
+            "range"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "日暮 - 恐怖行者",
+      "effects": [
+        {
+          "type": "fireRate",
+          "value": 25,
+          "damageTypes": [
+            "range"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    }
+  ],
+  "RangeMutator": [
+    {
+      "name": "動量",
+      "effects": [
+        {
+          "type": "criticalChance",
+          "value": 30,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        },
+        {
+          "type": "criticalDamage",
+          "value": 30,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "扭曲傷口",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 20,
+          "damageTypes": [
+            "range"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "惡臭傷痕",
+      "effects": [
+        {
+          "type": "criticalChance",
+          "value": 15,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "調諧者",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 20,
+          "damageTypes": [
+            "mod"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "失效保護",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 20,
+          "damageTypes": [
+            "mod"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "增壓器",
+      "effects": [
+        {
+          "type": "criticalChance",
+          "value": 15,
+          "damageTypes": [
+            "bow"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    }
+  ],
+  "RelicFragment": [
+    {
+      "name": "遠程傷害",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 10,
+          "damageTypes": [
+            "range"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "遠程暴擊率",
+      "effects": [
+        {
+          "type": "criticalChance",
+          "value": 10,
+          "damageTypes": [
+            "range"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "遠程暴擊傷害",
+      "effects": [
+        {
+          "type": "criticalDamage",
+          "value": 20,
+          "damageTypes": [
+            "range"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "遠程射速",
+      "effects": [
+        {
+          "type": "fireRate",
+          "value": 10,
+          "damageTypes": [
+            "range"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "改裝傷害",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 10,
+          "damageTypes": [
+            "mod"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "元素傷害",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 10,
+          "damageTypes": [
+            "fire",
+            "acid",
+            "shock",
+            "burning",
+            "corroded",
+            "overloaded"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    }
+  ],
+  "Ring": [
+    {
+      "name": "扎尼亞的惡意",
+      "effects": [
+        {
+          "type": "weakSpotDamage",
+          "value": 30,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "戰爭指環",
+      "effects": [
+        {
+          "type": "criticalChance",
+          "value": 15,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        },
+        {
+          "type": "criticalDamage",
+          "value": 15,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "機率之圈",
+      "effects": [
+        {
+          "type": "criticalDamage",
+          "value": 30,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "破壞者之負擔",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 15,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "贖罪皺襞",
+      "effects": [
+        {
+          "type": "criticalChance",
+          "value": 10,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "偽智者之負擔",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 15,
+          "damageTypes": [
+            "mod",
+            "skill"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "碎片重鑄戒指",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 12,
+          "damageTypes": [
+            "mod"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "狂熱者指環",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 25,
+          "damageTypes": [
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "賭徒之負擔",
+      "effects": [
+        {
+          "type": "criticalChance",
+          "value": 10,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        },
+        {
+          "type": "criticalDamage",
+          "value": 20,
+          "damageTypes": [
+            "range",
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "缺陷美戒指",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 25,
+          "damageTypes": [
+            "range"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    },
+    {
+      "name": "擴張之石",
+      "effects": [
+        {
+          "type": "damageIncrease",
+          "value": 12,
+          "damageTypes": [
+            "range"
+          ]
+        },
+        {
+          "type": "damageIncrease",
+          "value": -6,
+          "damageTypes": [
+            "melee",
+            "mod",
+            "fire",
+            "acid",
+            "shock",
+            "bleeding",
+            "burning",
+            "corroded",
+            "overloaded",
+            "bow",
+            "explosion",
+            "skill",
+            "heavy"
+          ]
+        }
+      ],
+      "isDefault": true,
+      "runtimeType": "default"
+    }
+  ]
+}
